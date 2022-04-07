@@ -6,5 +6,5 @@ class User {
     required this.name, 
     required this.age, 
     required this.professions, 
-  });
+  }): assert( name != null );
 }
